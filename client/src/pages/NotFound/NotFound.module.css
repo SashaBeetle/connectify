@@ -1,0 +1,33 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfff80;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.notFoundTitle {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.notFoundText {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.notFoundLink {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.notFoundLink:hover {
+  background-color: #000;
+  color: #cfff80;
+}

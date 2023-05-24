@@ -1,0 +1,11 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": ["airbnb"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/button-has-type": "off",
+    "import/prefer-default-export": "off"
+  }
+}

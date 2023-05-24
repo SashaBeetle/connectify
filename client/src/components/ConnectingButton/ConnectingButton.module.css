@@ -1,0 +1,37 @@
+.joinRoomButton {
+  margin-left: 15px;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #cfff80;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  box-shadow: 10px 11px 49px -24px rgba(0, 0, 0, 0.75);
+}
+
+.joinRoomButton:hover {
+  background-color: #cfff80;
+  color: #000;
+  margin-left: 15px;
+  box-shadow: none;
+}
+
+.createRoomButton {
+  border: 1px solid #000;
+  background-color: #cfff80;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  box-shadow: 10px 11px 49px -24px rgba(0, 0, 0, 0.75);
+}
+
+.createRoomButton:hover {
+  background-color: #000;
+  color: #cfff80;
+  box-shadow: none;
+}
